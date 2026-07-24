@@ -1,2 +1,2 @@
 # sorting-algorithm-visualizer
-Visualization of sorting algorithms using HTML, CSS and JavaScript
+Visualization of sorting algorithms using HTML, CSS and JavaScript.
