@@ -5,7 +5,7 @@ This project visualizes sorting algorithms using interactive bars.
 ## Features
 
 * Random array generation
-* Bubble Sort visualization
+* Bubble Sort,Merge Sort,Quick Sort,Selection Sort,Insertion Sort,Heap Sort visualization
 * Simple UI for learning sorting algorithms
 
 ## Technologies Used
