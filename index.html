@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,13 +11,28 @@
 <h1>Sorting Algorithm Visualizer</h1>
 
 <div class="controls">
-<button onclick="generateArray()">Generate New Array</button>
-<button onclick="bubbleSort()">Bubble Sort</button>
-<button onclick="mergeSort()">Merge Sort</button>
-<button onclick="quickSort()">Quick Sort</button>
+  <button onclick="generateArray()">Generate New Array</button>
+  <button onclick="bubbleSort()">Bubble Sort</button>
+  <button onclick="mergeSort()">Merge Sort</button>
+  <button onclick="quickSort()">Quick Sort</button>
+  <button onclick="selectionSort()">Selection Sort</button>
+  <button onclick="insertionSort()">Insertion Sort</button>
+  <button onclick="heapSort()">Heap Sort</button>
+  <button id="stepButton" onclick="stepMode()">Enable Step Mode</button>
+  <button onclick="nextStep()">Next Step</button>
+ <div class="slider-group">
+  <label for="size">Array Size:</label>
+  <input type="range" id="size" min="10" max="100" value="10" oninput="updateSize(this.value)">
+  <label for="speed">Speed:</label>
+  <input type="range" id="speed" min="50" max="1000" value="300" oninput="updateSpeed(this.value)">
+</div>
+
+
 </div>
 
 <div id="array"></div>
+
+<div id="metrics"></div>
 
 <script src="script.js"></script>
 
